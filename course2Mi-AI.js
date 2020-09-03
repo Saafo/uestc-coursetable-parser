@@ -1,7 +1,7 @@
 function scheduleHtmlParser(html) {
   // Author: @Saafo
   // Version: v0.1.0
-  // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/Mi-AI.js
+  // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2Mi-AI.js
   // License: GPL-3.0 License
   //除函数名外都可编辑
   //传入的参数为上一步函数获取到的html

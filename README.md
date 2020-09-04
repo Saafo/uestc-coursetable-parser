@@ -56,6 +56,8 @@
 
 ##### Windows
 
+Windows 10用户可以双击下载的`ics文件`，选择用日历或Outlook打开，即可选择导入到现有日历中或新建日历。如果你在日历中登录了微软账号，你的课表和日程就会同步到`Microsoft Exchange`账户下。
+
 ##### Linux
 
 ~~是因为不想Linux被鄙视才列在这里的，但既然都在用Linux了肯定有办法找到导入ics的方法吧真的有的真的有的。~~
@@ -69,7 +71,7 @@
 
 ##### Android
 
-如果你恰巧使用的是`Android`的话，那么你可以选择在`Google Calendar`中导入`ics文件`。但如果你使用的是`安卓`的话，那么就需要利用第三方软件（如：锤子日历、滴答清单，可在酷安上下载）导入ics文件。
+如果你恰巧使用的是`Android`的话，那么你可以选择在`Google Calendar`中导入`ics文件`。但如果你使用的是`安卓`的话，那么就需要利用第三方软件（可以在`Play Store`中搜索"ics"寻找相关软件，也可以在国内应用市场下载`Outlook`）来导入ics文件。
 
 #### 多平台同步指北
 
@@ -79,11 +81,11 @@
 
 在`Windows`上，只需下载一个[`Windows 版 iCloud`](https://support.apple.com/zh-cn/HT204283)，即可同步日程。
 
-在`Android/安卓`上，可以在`Play Store`下载一个`Sync for iCloud`（红色图标）来进行同步。使用这种方法，建议先在[`Apple ID管理页面`](https://appleid.apple.com/#!&page=signin)生成一个`独立App密码`(APP-SPECIFIC PASSWORDS)。如果你不会魔法，也可以在iCloud日历中获取公开订阅链接之后，尝试用`滴答清单`或`锤子日历`来进行`url订阅`。
+在`Android/安卓`上，可以在`Play Store`下载一个`Sync for iCloud`（红色图标）来进行同步。使用这种方法，建议先在[`Apple ID管理页面`](https://appleid.apple.com/#!&page=signin)生成一个`独立App密码`(APP-SPECIFIC PASSWORDS)。如果你不会魔法，也可以在iCloud日历中获取公开订阅链接之后，尝试用`滴答清单`或其他软件来进行`url日历订阅`。
 
-##### Outlook用户
+##### Microsoft用户
 
-可以大致参照`iCloud用户`的使用方法。在iOS/iPadOS上，尝试下载Outlook或通过原生日历订阅Outlook生成的url订阅链接。
+如果你在Windows中使用微软账号，可以在`Windows日历`中登录微软账号，导入课表或日程。在iOS/iPadOS/macOS上，添加`Microsoft Exchange`账户，勾选日历同步后即可同步日历。在Android上，也可以在日历中添加`Microsoft Exchange`账号来进行全平台同步。
 
 ### Q&A
 

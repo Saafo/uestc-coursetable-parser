@@ -1,6 +1,6 @@
 function genics(firstMonday) {
   // Author: @Saafo
-  // Version: v0.1.0
+  // Version: v0.1.1
   // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js
   // License: GPL-3.0 License
   const timeTable = [
@@ -33,7 +33,7 @@ function genics(firstMonday) {
   ];
   function dateToStr(date) { // format date to YYYYMMDD
     return String(date.getFullYear()) +
-      String(date.getMonth() > 9 ? "" + (date.getMonth() + 1) : "0" + (date.getMonth() + 1)) +
+      String(date.getMonth() > 8 ? "" + (date.getMonth() + 1) : "0" + (date.getMonth() + 1)) +
       String(date.getDate() > 9 ? "" + date.getDate() : "0" + date.getDate());
   };
   function strToDate(str) {
@@ -65,7 +65,7 @@ function genics(firstMonday) {
 METHOD:PUBLISH\n\
 VERSION:2.0\n\
 X-WR-CALNAME:课表\n\
-PRODID:-//Saafo//github.com/Saafo/course2ics 0.1.0//CN\n\
+PRODID:-//Saafo//github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js 0.1.1//CN\n\
 X-WR-TIMEZONE:Asia/Shanghai\n\
 CALSCALE:GREGORIAN\n\
 BEGIN:VTIMEZONE\n\

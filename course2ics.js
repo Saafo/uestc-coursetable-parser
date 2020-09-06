@@ -1,6 +1,6 @@
 function genics(firstMonday) {
   // Author: @Saafo
-  // Version: v0.1.1
+  // Version: v0.1.2
   // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js
   // License: GPL-3.0 License
   const timeTable = [
@@ -65,26 +65,17 @@ function genics(firstMonday) {
 METHOD:PUBLISH\n\
 VERSION:2.0\n\
 X-WR-CALNAME:课表\n\
-PRODID:-//Saafo//github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js 0.1.1//CN\n\
+PRODID:-//Saafo//github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js 0.1.2//CN\n\
 X-WR-TIMEZONE:Asia/Shanghai\n\
 CALSCALE:GREGORIAN\n\
 BEGIN:VTIMEZONE\n\
 TZID:Asia/Shanghai\n\
 BEGIN:STANDARD\n\
-TZOFFSETFROM:+0900\n\
-RRULE:FREQ=YEARLY;UNTIL=19910914T170000Z;BYMONTH=9;\n\
-BYDAY=3SU\n\
+TZOFFSETFROM:+0800\n\
 DTSTART:19890917T020000\n\
 TZNAME:GMT+8\n\
 TZOFFSETTO:+0800\n\
 END:STANDARD\n\
-BEGIN:DAYLIGHT\n\
-TZOFFSETFROM:+0800\n\
-DTSTART:19910414T020000\n\
-TZNAME:GMT+8\n\
-TZOFFSETTO:+0900\n\
-RDATE:19910414T020000\n\
-END:DAYLIGHT\n\
 END:VTIMEZONE\n\
 "
   // event of ics

@@ -1,6 +1,6 @@
 function genics(firstMonday) {
   // Author: @Saafo
-  // Version: v0.1.2
+  // Version: v0.1.3
   // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js
   // License: GPL-3.0 License
   const timeTable = [
@@ -170,6 +170,7 @@ END:VTIMEZONE\n\
       if (item.position != "暂无地点") {
         icsString += "\nLOCATION:" + item.position;
       };
+      icsString += "\nDESCRIPTION:教师：" + item.teacher;
       let tempStartDate = new Date();
       tempStartDate.setDate(constFirstMonday.getDate() + (item.weeks[0] - 1) * 7 + item.day - 1)
       icsString += "\nDTSTART;TZID=Asia/Shanghai:" + dateToStr(tempStartDate) + "T" + item.sections[0].startTime + "00";

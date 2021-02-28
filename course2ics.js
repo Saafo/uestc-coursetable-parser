@@ -171,11 +171,11 @@ END:VTIMEZONE\n\
         icsString += "\nLOCATION:" + item.position;
       };
       icsString += "\nDESCRIPTION:教师：" + item.teacher;
-      let tempStartDate = new Date();
+      let tempStartDate = new Date(constFirstMonday);
       tempStartDate.setDate(constFirstMonday.getDate() + (item.weeks[0] - 1) * 7 + item.day - 1)
       icsString += "\nDTSTART;TZID=Asia/Shanghai:" + dateToStr(tempStartDate) + "T" + item.sections[0].startTime + "00";
       icsString += "\nDTEND;TZID=Asia/Shanghai:" + dateToStr(tempStartDate) + "T" + item.sections[item.sections.length - 1].endTime + "00";
-      let tempEndDate = new Date();
+      let tempEndDate = new Date(constFirstMonday);
       tempEndDate.setDate(constFirstMonday.getDate() + (item.weeks[item.weeks.length - 1] - 1) * 7 + item.day - 1);
       // repeat rule
       if (item.repeatType != 2) { // repetition

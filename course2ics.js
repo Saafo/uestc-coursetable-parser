@@ -1,6 +1,6 @@
 function genics(firstMonday) {
   // Author: @Saafo
-  // Version: v0.1.3
+  // Version: v0.2.0
   // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js
   // License: GPL-3.0 License
   const timeTable = [
@@ -65,7 +65,7 @@ function genics(firstMonday) {
 METHOD:PUBLISH\n\
 VERSION:2.0\n\
 X-WR-CALNAME:课表\n\
-PRODID:-//Saafo//github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js 0.1.2//CN\n\
+PRODID:-//Saafo//github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js 0.2.0//CN\n\
 X-WR-TIMEZONE:Asia/Shanghai\n\
 CALSCALE:GREGORIAN\n\
 BEGIN:VTIMEZONE\n\

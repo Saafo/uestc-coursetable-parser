@@ -1,4 +1,4 @@
-function genics(firstMonday) {
+let genics = function(firstMonday) {
   // Author: @Saafo
   // Version: v0.2.0
   // Link: https://github.com/Saafo/uestc-coursetable-parser/blob/master/course2ics.js
@@ -207,4 +207,4 @@ END:VTIMEZONE\n\
   element.click();
   document.body.removeChild(element);
 };
-genics('20210301');
+genics('20240226');
